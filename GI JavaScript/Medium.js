@@ -7,5 +7,5 @@ else if (popout === popout.toLowerCase()) {
     alert('user is whispering');
 }
 else {
-    alert('normal');
+    alert('user is speaking normal');
 }
