@@ -22,7 +22,7 @@ const Home = () => {
                     <img src="./imgs/tamaheaderscaled.jpeg" alt='hi'></img>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperslide}>
-                    <img src="./imgs/Besttamagotchiscaled.jpeg" alt='by'></img>
+                    <img src="./imgs/timi.png" alt='by'></img>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperslide}>
                     <img src="./imgs/HQ_TOMO.png" alt='my'></img>
