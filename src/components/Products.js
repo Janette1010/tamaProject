@@ -6,25 +6,25 @@ import styles from '../styles/products.scss'
 const Products = () => {
     const [varState, setVarState] = useState([])
     useEffect(() => {
-        Axios.get("http://localhost:8080/test").then((response) => {
+        Axios.get("https://tamaislandserver.herokuapp.com/test").then((response) => {
             /*console.log(response)*/
             setVarState(response.data)
         })
     }, [])
     const filterLow = () => {
-        Axios.get("http://localhost:8080/low").then((response) => {
+        Axios.get("https://tamaislandserver.herokuapp.com/low").then((response) => {
             /*console.log(response)*/
             setVarState(response.data)
         })
     }
     const filterHigh = () => {
-        Axios.get("http://localhost:8080/high").then((response) => {
+        Axios.get("https://tamaislandserver.herokuapp.com/high").then((response) => {
             /*console.log(response)*/
             setVarState(response.data)
         })
     }
     const filterNormal = () => {
-        Axios.get("http://localhost:8080/test").then((response) => {
+        Axios.get("https://tamaislandserver.herokuapp.com/test").then((response) => {
             /*console.log(response)*/
             setVarState(response.data)
         })
