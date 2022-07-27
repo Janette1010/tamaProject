@@ -1,7 +1,7 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function Navbar() {
     return (<nav className="nav">
-        <img src="/imgs/Tsubutchi.PNG.webp" alt="logo"></img>
+        <img src="/imgs/Tsubutchi.webp" alt="logo"></img>
         <Link to="/" className="site-title"> Tama Island</Link>
         <ul>
             <CustomLink to="/">Home</CustomLink>

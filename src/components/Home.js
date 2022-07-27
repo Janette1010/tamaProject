@@ -19,13 +19,13 @@ const Home = () => {
                 loop
                 className={styles.myswiper}>
                 <SwiperSlide className={styles.swiperslide}>
-                    <img src="/imgs/tama-header-scaled.jpeg" alt='hi'></img>
+                    <img src="./imgs/tamaheaderscaled.jpeg" alt='hi'></img>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperslide}>
-                    <img src="/imgs/Best-tamagotchi-scaled.jpeg" alt='by'></img>
+                    <img src="./imgs/Besttamagotchiscaled.jpeg" alt='by'></img>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperslide}>
-                    <img src="/imgs/HQ_TOMO.png" alt='my'></img>
+                    <img src="./imgs/HQ_TOMO.png" alt='my'></img>
                 </SwiperSlide>
 
             </Swiper>
