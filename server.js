@@ -8,11 +8,11 @@ app.use(cors())
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const pool = mysql.createPool({
-    host: process.env,
-    user: process.env,
-    port: process.env,
-    password: process.env,
-    database: process.env
+    host: process.env.databasehost,
+    user: process.env.userDB,
+    port: process.env.portDB,
+    password: process.env.passwordDB,
+    database: process.env.sqlDB
 })
 
 app.get("/test", (req, res) => {
