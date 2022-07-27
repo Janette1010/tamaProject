@@ -19,7 +19,7 @@ const Home = () => {
                 loop
                 className={styles.myswiper}>
                 <SwiperSlide className={styles.swiperslide}>
-                    <img src="./imgs/tamaheaderscaled.jpeg" alt='hi'></img>
+                    <img src="./imgs/pink.png" alt='hi'></img>
                 </SwiperSlide>
                 <SwiperSlide className={styles.swiperslide}>
                     <img src="./imgs/timi.png" alt='by'></img>

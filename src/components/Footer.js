@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <img src="../imgs/Tsubutchi.webp" alt="logo"></img>
+                        <img src="../imgs/blob_thing.png" alt="logo"></img>
                     </div>
                     {/*Column1*/}
                     <div className="col">

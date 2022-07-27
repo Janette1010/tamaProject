@@ -6,7 +6,7 @@ const Form = () => {
     return (<>
         <section className='form-page'>
             <div className='form-text'>
-                <h1>GET STARTED TODAY FILL OUT INFO BELOW</h1>
+                <h1>Contact us for anything! :D</h1>
 
             </div>
 

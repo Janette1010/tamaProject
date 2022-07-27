@@ -40,13 +40,13 @@ body {
         p {
             font-size: 14px;
             text-align: center;
-            color: rgba(black, .3);
+            color: rgba(black, .6);
             margin: 8px 0;
         }
 
         .price {
             font-size: 25px;
-            color: red;
+            color: darkblue;
 
             span {
                 font-size: 15px;
@@ -69,15 +69,15 @@ body {
     }
 
     .card:hover {
-        background-color: lightblue;
+        background-color: rgb(190, 228, 241);
         transform: scale(1.1);
         cursor: pointer;
     }
 
     .card:hover {
         .btnp {
-            background-color: green;
-            color: bisque;
+            background-color: #dd62f8;
+            color: darkblue;
         }
 
     }
@@ -87,8 +87,8 @@ body {
         height: 35px;
         font-size: 14px;
         border-radius: 35px;
-        background-color: (chartreuse);
-        color: coral;
+        background-color: (#E2889E);
+        color: black;
         cursor: pointer;
         position: relative;
         transition: backgroud-color .3s ease;
